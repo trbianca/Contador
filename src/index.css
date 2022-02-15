@@ -1,13 +1,95 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&family=Montserrat:wght@100;400;500&family=Padauk:wght@700&family=Playfair+Display:wght@700&family=Poppins:wght@200&family=Rajdhani:wght@500&family=Raleway:wght@600&family=Righteous&family=Roboto:wght@300;900&family=Supermercado+One&display=swap");
+/* font-family: 'Rajdhani', sans-serif; */
+
+.container-main {
+  max-width: 100%;
+  min-height: 120vh;
+  background-color: #dcdcdc;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container-main-name {
+  /* background-color: black; */
+  width: 25vw;
+  height: 15vh;
+  font-family: "Rajdhani", sans-serif;
+  color: #a9a9a9;
+  display: flex;
+  justify-content: center;
+}
+
+.larger-circle {
+  background-color: #db7093;
+  width: 25vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  opacity: 90%;
+}
+
+.smaller-circle {
+  background-color: #ffb6c1;
+  width: 20vw;
+  height: 40vh;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 95%;
+}
+
+.smaller-circle h3 {
+  color: white;
+  font-size: 3em;
+}
+
+.increase-decrease-button {
+  /* background-color: black; */
+  width: 40vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 30px;
+}
+
+.increase-decrease-button button {
+  width: 60px;
+  font-size: 2em;
+  color: white;
+  background-color: #db7093;
+  opacity: 90%;
+  border: white;
+}
+
+.increase-decrease-button button:hover {
+  background-color: #ffb6c1;
+}
+
+.reset-button {
+  /* background-color: black; */
+  width: 5vw;
+  height: 10vh;
+  position: relative;
+  top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.reset-button button {
+  width: 100%;
+  color: white;
+  background-color: #db7093;
+  opacity: 90%;
+  border: white;
+  font-size: 1em;
+}
+
+.reset-button button:hover {
+  background-color: #ffb6c1;
 }
